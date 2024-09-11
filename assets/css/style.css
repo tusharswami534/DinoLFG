@@ -90,12 +90,43 @@ animation: dino 5s infinite linear;
       left: 85%;
     }
   }
-}
-@media (max-width:768) {
-  .animate_circle_box{
-    position: relative;
-    animation: none , none !important;
+  .keyfram-line{
+    animation: line 3s ;
   }
+  @keyframes line {
+    0%{
+      top: -100%;
+    }
+    100%{
+      top: 0;
+    }
+  }
+}
+@media (max-width:768px ) {
+  .animate_circle_box{
+    animation: none , circleRotate 10s infinite linear !important;
+  }
+  @keyframes circleRotate {
+    0%{
+      rotate: 0deg;
+    }
+    25%{
+      rotate: 360deg;
+    }
+    50%{
+      rotate: 180deg;
+    }
+    75%{
+      rotate: 270deg;
+    }
+    100%{
+      rotate: 0deg;
+    }
+  }
+  .hero_dino_images{
+    animation: none;
+  }
+  
   
 }
 

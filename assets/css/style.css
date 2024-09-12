@@ -7,7 +7,7 @@
   font-family: "Balsamiq Sans", sans-serif;
 }
 .left_right_keyfram{
-animation: dino 5s infinite linear;
+animation: dino 5s infinite linear, dinoY 5s infinite linear;
 }
 @keyframes dino {
   0%{
@@ -19,6 +19,43 @@ animation: dino 5s infinite linear;
   100%{
     left: 100%;
   }
+  
+}
+@keyframes dinoY {
+ 0% {
+  bottom: -4%;
+ }
+ 10% {
+  bottom: 10%;
+ }
+ 20%{
+  bottom: -4%;
+ }
+ 30%{
+  bottom: 10%;
+ }
+ 40%{
+  bottom: -4%;
+ }
+ 50%{
+  bottom: 10%;
+ }
+ 60%{
+  bottom: -4%;
+ }
+ 70%{
+  bottom: 10%;
+ }
+ 80%{
+  bottom: -4%;
+ }
+ 90%{
+  bottom: 10%;
+ }
+ 100%{
+  bottom: -4%;
+ }
+
   
 }
 @media (max-width:1024px) {

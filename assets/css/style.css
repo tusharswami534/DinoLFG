@@ -166,6 +166,15 @@ animation: dino 5s infinite linear, dinoY 5s infinite linear;
   
   
 }
+@media (max-width:500px) {
+  .max_xsm_150px{
+    max-width: 150px;
+  }
+ 
+  .max_xsm_w_150{
+    width: 130px;
+  }
+}
 
 @media (max-width:400px) {
   .translate_xs_80{
@@ -173,6 +182,9 @@ animation: dino 5s infinite linear, dinoY 5s infinite linear;
   }
   .left_right_keyfram{
     animation: dino 5s infinite linear, none;
+    }
+    .max_xsm_translate-10{
+      transform: translateX(-10px) !important;
     }
   
 }

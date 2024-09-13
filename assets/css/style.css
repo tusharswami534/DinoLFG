@@ -56,7 +56,6 @@ animation: dino 5s infinite linear, dinoY 5s infinite linear;
   bottom: -4%;
  }
 
-  
 }
 @media (max-width:1024px) {
   .hero_section_left_box{
@@ -149,10 +148,34 @@ animation: dino 5s infinite linear, dinoY 5s infinite linear;
   
   
 }
-@media (max-width:500px) {
-  .max_xsm_150px{
-    max-width: 150px;
+@media (max-width:640px) {
+  .max_sm_align_start{
+    align-items: start !important;
   }
+}
+@keyframes dinoY {
+  0% {
+   bottom: -4%;
+  }
+
+  30%{
+   bottom: 5%;
+  }
+ 
+  60%{
+   bottom: -4%;
+  }
+ 
+  90%{
+   bottom: 5%;
+  }
+  100%{
+   bottom: -4%;
+  }
+ 
+ }
+@media (max-width:500px) {
+  
  
   .max_xsm_w_150{
     width: 130px;
@@ -163,11 +186,12 @@ animation: dino 5s infinite linear, dinoY 5s infinite linear;
   .translate_xs_80{
     transform: translateX(-80px) !important;
   }
-  .left_right_keyfram{
-    animation: dino 5s infinite linear, none;
-    }
+  
     .max_xsm_translate-10{
       transform: translateX(-10px) !important;
+    }
+    .max_xsm_150px{
+      max-width: 150px;
     }
   
 }

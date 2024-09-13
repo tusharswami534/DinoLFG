@@ -109,24 +109,7 @@ animation: dino 5s infinite linear, dinoY 5s infinite linear;
       left: 200%;
     }
   }
-  .hero_dino_images{
-    position: relative;
-    animation: dinoHero 10s infinite linear;
-  }
-  @keyframes dinoHero {
-    0%{
-      left: -45%;
-    }
-    25%{
-      left: 0;
-    }
-    50%{
-      left: 0;
-    }
-    100%{
-      left: 85%;
-    }
-  }
+
   .keyfram-line{
     animation: line 3s ;
   }

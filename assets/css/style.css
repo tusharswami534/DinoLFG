@@ -193,6 +193,9 @@ animation: dino 5s infinite linear, dinoY 5s infinite linear;
     .max_xsm_150px{
       max-width: 150px;
     }
+    .max_xsm_translate_10{
+      transform: translateX(10px);
+    }
   
 }
 
